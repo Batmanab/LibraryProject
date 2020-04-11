@@ -15,7 +15,6 @@ public class HelpCmd extends LibraryCommand {
      */
     public HelpCmd(String argumentInput) {
         super(CommandType.HELP, argumentInput);
-        
         helpOutput = buildHelpOutput();
     }
 
